@@ -1,0 +1,64 @@
+body {
+    display:flex;
+    flex: 1;
+    border-style: solid;
+    border-color: purple;
+}
+
+body * {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header {
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    border-style: solid;
+    border-color: red;
+}
+
+.hlogo {
+    margin-left: 10vh;
+}
+
+.hlinks {
+    margin-left: auto;
+    margin-right: 10vh;
+}
+
+.hlinks * {
+    display: flex;
+    padding: 0px 8px;
+    border-style: solid;
+    border-color: red;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+.one {
+    background-color: #1F2937;
+    display:flex;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.awesome-sub {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hlogo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+}
