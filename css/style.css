@@ -1,12 +1,14 @@
 body {
     display:flex;
-    flex: 1;
-    border-style: solid;
-    border-color: purple;
+    flex-flow: row wrap;
+    min-height: 100vh;
+    /* border-style: solid;
+    border-color: purple; */
 }
 
-body * {
+body > div {
     display: flex;
+    flex: auto;
     flex-flow: row wrap;
 }
 
@@ -38,6 +40,7 @@ a {
     color: #F9FAF8;
     text-decoration: none;
 }
+
 .one {
     background-color: #1F2937;
     display:flex;
@@ -61,4 +64,37 @@ a {
 
 button {
     background-color: #3882F6;
+}
+
+.two {
+    background-color: #F9FAF8;
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border-style: solid;
+    border-color: yellow; */
+}
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border-style: solid;
+    border-color: green; */
+}
+
+.four {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-style: solid;
+    border-color: orange; */
+}
+
+footer {
+    display: flex;
+    width: 100%;
+        border-style: solid;
+    border-color: blue;
 }
